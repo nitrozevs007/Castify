@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
 }
 
-.main {
+#main-1 {
   background-image: url(../assets/svg/hero\ background.svg);
   background-size: cover;
 }
@@ -319,4 +319,28 @@ header .header-btns .membership:active {
   position: absolute;
   top: 190px;
   right: 0;
+}
+
+#main-2 {
+  background-color: #FD6036;
+}
+
+.section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.section-1 img {
+  opacity: 0.2;
+}
+
+.section-1 img:hover {
+  opacity: 1;
+}
+
+.section-1 img:active {
+  opacity: 1;
+  transform: scale(1.05);
 }

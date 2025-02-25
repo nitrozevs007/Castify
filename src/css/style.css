@@ -416,6 +416,7 @@ header .header-btns .membership:active {
   z-index: -1;
 }
 
+
 .section-3 ul {
   display: flex;
   align-items: center;
@@ -423,9 +424,14 @@ header .header-btns .membership:active {
   /* gap: 30px; */
 }
 
-.section-3 .blur {
-  left: 100%;
-  bottom: 0;
+.blur1 {
+  position: absolute;
+  width: 262px;
+  height: 262px;
+  border-radius: 50%;
+  background-color: #FD6036;
+  filter: blur(250px);
+  right: -80px;
   z-index: -1;
 }
 

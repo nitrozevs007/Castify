@@ -695,8 +695,23 @@ header .header-btns .membership:active {
   text-decoration-skip-ink: none;
 }
 
-.section6 {
-  display: flex;
+#section-6 {
+  background: linear-gradient(180deg, rgba(253, 96, 54, 0.05) 7%, rgba(253, 96, 54, 0.3) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#section-6 .bg-grad {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+}
+
+.section-6 {
+
+  padding: 125px 0;
 }
 
 .section-6 .text {
@@ -706,16 +721,44 @@ header .header-btns .membership:active {
   max-width: 586px;
 }
 
-.section-6 h1 {
+.section-6 .text h1 {
   font-weight: 500;
   margin-bottom: 5px;
 }
 
-.section-6 h1 span {
+.section-6 .text h1 span {
   font-weight: 900;
 }
 
-.section-6 p {
+.section-6 .text p {
   font-weight: 300;
 }
 
+.section-6 .text button {
+  width: max-content;
+  margin-top: 40px;
+}
+
+.section-6 .img-div {
+  position: relative;
+}
+
+.section-6 .img-div .girl {
+  position: absolute;
+  bottom: -155px;
+  right: 0;
+  z-index: 2;
+}
+
+.section-6 .img-div .player {
+  right: 440px;
+  bottom: 150px;
+  z-index: 1;
+  position: absolute;
+}
+
+.section-6 .img-div .voice {
+  position: absolute;
+  right: -70px;
+  bottom: 0;
+}

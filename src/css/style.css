@@ -375,6 +375,7 @@ header .header-btns .membership:active {
   align-items: center;
   margin-top: 120px;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .section-2 h1 {
@@ -387,7 +388,7 @@ header .header-btns .membership:active {
 }
 
 .section-2 p {
-  font-weight: 300; 
+  font-weight: 300;
   max-width: 454px;
 }
 
@@ -409,7 +410,129 @@ header .header-btns .membership:active {
   height: 362px;
   border-radius: 50%;
   background-color: #FD6036;
-  filter: blur(200px);
+  filter: blur(250px);
   position: absolute;
-  left: -350px;
+  left: -450px;
+  z-index: -1;
+}
+
+.section-3 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 30px; */
+}
+
+.section-3 .blur {
+  left: 100%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.section-3 ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 45px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  transition: 0.5s;
+}
+
+.section-3 ul li:hover {
+  background-color: #E3D5C5;
+  background-image: url(../assets/svg/expert\ podcaster\ absolut.svg);
+  background-repeat: no-repeat;
+}
+
+.section-3 ul li .imgdiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.section-3 ul li .imgdiv .info-player {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.section-3 ul li .imgdiv .info-player p {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.section-3 ul li a {
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section-3 ul li a ion-icon {
+  color: #FD6036;
+  width: 18px;
+  height: 18px;
+}
+
+.section-3 ul li h3 {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.section-3 ul li h3 span {
+  font-weight: 900;
+}
+
+.section-3 ul li .length-and-date {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-3 ul li .length-and-date p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.section-3 ul li .length-and-date ion-icon {
+  color: #FD6036;
+  width: 18px;
+  height: 18px;
+}
+
+.section-3 ul li .line {
+  width: 100%;
+  height: 1px;
+  background-color: #D2D2D2;
+}
+
+.section-3 ul li .subcribe {
+  font-weight: 800;
+  font-size: 22px;
+  color: #fd6036;
+  width: max-content;
+}
+
+.section-3 ul li .subcribe:hover {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
 }

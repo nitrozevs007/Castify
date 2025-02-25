@@ -76,6 +76,17 @@ button:active {
   transform: scale(1.1);
 }
 
+#btn1 {
+  background-color: #FD6036;
+  border: none;
+  padding: 16px 30px;
+  border-radius: 30px;
+
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -421,6 +432,7 @@ header .header-btns .membership:active {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 80px;
   /* gap: 30px; */
 }
 
@@ -444,11 +456,12 @@ header .header-btns .membership:active {
   background-color: #fff;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
   transition: 0.5s;
+  width: 430px;
 }
 
 .section-3 ul li:hover {
   background-color: #E3D5C5;
-  background-image: url(../assets/svg/expert\ podcaster\ absolut.svg);
+  background-image: url(../assets/svg/hover\ back.svg);
   background-repeat: no-repeat;
 }
 
@@ -525,7 +538,7 @@ header .header-btns .membership:active {
   height: 18px;
 }
 
-.section-3 ul li .line {
+.line {
   width: 100%;
   height: 1px;
   background-color: #D2D2D2;
@@ -542,3 +555,167 @@ header .header-btns .membership:active {
   text-decoration: underline;
   text-decoration-skip-ink: none;
 }
+
+#section-4 {
+  background-image: url(../assets/svg/s4-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 145px;
+}
+
+.section-4 .imgdiv {
+  position: relative;
+}
+
+.section-4 .imgdiv .girl {
+  position: absolute;
+  top: -110px;
+  left: -50px;
+}
+
+.section-4 .text {
+  max-width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section-4 .text h1 {
+  font-weight: 500;
+  font-size: 52px;
+}
+
+.section-4 .text h1 span {
+  font-weight: 900;
+}
+
+.section-4 .text p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.section-4 .text ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section-4 .text ul li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.section-4 .text ul li ion-icon {
+  color: #FD6036;
+}
+
+.section-4 .text button {
+  padding: 16px 30px;
+  width: max-content;
+  border-radius: 30px;
+  border: none;
+  background-color: #FD6036;
+  margin-top: 20px;
+
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+.section-5 h1 {
+  font-weight: 500;
+}
+
+.section-5 h1 span {
+  font-weight: 900;
+}
+
+.section-5 p {
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.section-5 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section-5 ul li {
+  padding: 45px 35px;
+  display: flex;
+  max-width: 315px;
+  flex-direction: column;
+  gap: 15px;
+  transition: 0.5s;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+}
+
+.section-5 ul li:hover {
+  background: #E3D5C5;
+  background-image: url(../assets/svg/s5-img-bg.svg);
+  background-size: cover;
+}
+
+.section-5 ul li img {
+  margin-left: -20px;
+}
+
+.section-5 ul li .subcribe {
+  font-weight: 800;
+  font-size: 22px;
+  color: #fd6036;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+}
+
+.section-5 ul li .subcribe:hover {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.section6 {
+  display: flex;
+}
+
+.section-6 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 586px;
+}
+
+.section-6 h1 {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.section-6 h1 span {
+  font-weight: 900;
+}
+
+.section-6 p {
+  font-weight: 300;
+}
+
